@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Momento feliz</title>
+    <meta name="description" content="Agora, um pouco de gente bonita pra melhorar o seu dia"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+            flex-direction: column;
+            text-align: center;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .images img {
+            max-width: 150px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .video {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SEU DIA ESTÁ RUIM?</h1>
+    <p>Então, nada melhor do que ver algo bonito para melhorá-lo!</p>
+    <div class="images">
+        <img src="sagres.jpeg">
+        <img src="pastel.jpeg">
+        <img src="cris.jpeg">
+        <img src="carro.jpeg">
+    </div>
+    <!-- Adicionando vídeo do YouTube que reproduz automaticamente com som -->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8FHx-KVkDOM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- Adicionando áudio -->
+    <audio controls>
+        <source src="musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-C6TVJFK786');
+    </script>
+</body>
+</html>
